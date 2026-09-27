@@ -3,7 +3,7 @@ module github.com/nosborn/federation-1999
 go 1.26.1
 
 require (
-	github.com/dustin/go-humanize v1.0.1
+	github.com/dustin/go-humanize v1.1.0
 	github.com/gorilla/websocket v1.5.3
 	github.com/mattn/go-sqlite3 v1.14.34
 	github.com/pires/go-proxyproto v0.11.0
