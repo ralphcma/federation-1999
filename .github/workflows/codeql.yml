@@ -45,7 +45,7 @@ jobs:
           echo "${RUNNER_TEMP:?}/hugo" >>"${GITHUB_PATH}"
 
       - name: Initialize CodeQL
-        uses: github/codeql-action/init@45cbd0c69e560cd9e7cd7f8c32362050c9b7ded2 # v4.32.2
+        uses: github/codeql-action/init@2892aa5e19bbd11bc0cff5427e3b750a04d9e3c2 # v4.38.2
         with:
           build-mode: ${{ matrix.build-mode }}
           languages: ${{ matrix.language }}
